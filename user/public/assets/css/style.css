@@ -1,0 +1,264 @@
+#login_form {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 10px;
+    background: #fff;
+}
+
+    #login_form .error-text {
+        color: red
+    }
+
+    #login_form .error-input {
+        border: solid 1px red;
+    }
+
+    #login_form.page_l_r {
+        box-shadow: 0px 0px 5px #ccc;
+    }
+
+    #login_form .fields {
+        position: relative;
+        margin: 5px 0px;
+    }
+
+    #login_form .item_log {
+        border-radius: 40px !important;
+        color: #0A2D49;
+        min-height: 40px;
+        text-indent: 22px;
+    }
+
+    #login_form .form-group i {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: #0A2D49;
+    }
+
+    #login_form button {
+        min-height: 40px;
+        border-radius: 40px !important;
+        position: relative;
+        font-weight: bold;
+        width: 100%;
+        background-color: #0f4a1a;
+    }
+
+        #login_form button:focus {
+            outline: 0;
+        }
+
+    #login_form label {
+        color: #0A2D49;
+    }
+
+    #login_form .type_login {
+        color: #0A2D49;
+        margin: 25px 0;
+    }
+
+        #login_form .type_login:before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: 1px;
+            background: #0A2D49;
+        }
+
+        #login_form .type_login:after {
+            content: '';
+            left: inherit;
+            right: 10px;
+            position: absolute;
+            top: 10px;
+            width: 80px;
+            height: 1px;
+            background: #0A2D49;
+        }
+
+    #login_form .other_login i {
+        position: absolute;
+        top: -3px;
+        left: 15px;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #login_form .btn-facebook, #login_form .btn-google {
+        color: #fff;
+    }
+
+    #login_form .btn-facebook {
+        background: #4267B2;
+    }
+
+    #login_form .btn-google {
+        background: #D44738;
+    }
+
+    #login_form .field-validation-error {
+        color: #FF0000;
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    #login_form .validation-summary-errors ul {
+        list-style: none;
+        color: #E81123;
+        border-left: 2px solid;
+        border-right: 2px solid;
+    }
+
+.error-text .validation-summary-errors ul {
+    list-style: none !important;
+    color: #E81123 !important;
+    padding-left: 0px !important;
+    border-left: none !important;
+    border-right: none !important;
+    text-align: center;
+}
+
+#resetpwdor .validation-summary-errors ul, #forgotpwdor .validation-summary-errors ul {
+    list-style: none;
+    color: #E81123;
+}
+
+#resetpwdor, #forgotpwdor {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 10px;
+    background: #fff;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+#resetpwdor {
+    display: inline-block;
+    width: 100%;
+    padding: 20px 10px;
+    background: #fff;
+}
+
+    #resetpwdor.page_l_r {
+        box-shadow: 0px 0px 5px #ccc;
+    }
+
+    #resetpwdor .fields {
+        position: relative;
+    }
+
+    #resetpwdor .item_log {
+        border-radius: 40px !important;
+        color: #0A2D49;
+        min-height: 40px;
+        text-indent: 22px;
+    }
+
+    #resetpwdor .form-group i {
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        color: #0A2D49;
+    }
+
+    #resetpwdor button {
+        min-height: 40px;
+        border-radius: 40px !important;
+        position: relative;
+        font-weight: bold;
+    }
+
+        #resetpwdor button:focus {
+            outline: 0;
+        }
+
+    #resetpwdor label {
+        color: #0A2D49;
+    }
+
+    #resetpwdor .type_login {
+        color: #0A2D49;
+    }
+
+        #resetpwdor .type_login:before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 80px;
+            height: 1px;
+            background: #0A2D49;
+        }
+
+        #resetpwdor .type_login:after {
+            content: '';
+            left: inherit;
+            right: 10px;
+            position: absolute;
+            top: 10px;
+            width: 80px;
+            height: 1px;
+            background: #0A2D49;
+        }
+
+    #resetpwdor .other_login i {
+        position: absolute;
+        top: -3px;
+        left: 15px;
+        font-size: 30px;
+        color: #fff;
+    }
+
+    #resetpwdor .btn-facebook, #resetpwdor .btn-google {
+        color: #fff;
+    }
+
+    #resetpwdor .btn-facebook {
+        background: #4267B2;
+    }
+
+    #resetpwdor .btn-google {
+        background: #D44738;
+    }
+
+    #resetpwdor .field-validation-error {
+        color: #FF0000;
+        font-style: italic;
+        font-size: 12px;
+    }
+
+    #resetpwdor .validation-summary-errors ul {
+        list-style: none;
+        color: #E81123;
+        border-left: 2px solid;
+        border-right: 2px solid;
+    }
+
+/*edit*/
+
+.khao-sat-list .list-company-contain .item .content h3 a{
+    font-size: 20px;
+}
+
+.mtp-header {
+    background-color: #69bd43;
+    padding-top: 10px;
+}
+
+.card-news-lates h6{
+    margin-top: 100px;
+}
+
+.card-diem-den .card .img-contain .user-selection a{
+    font-size: 15px;
+}
+
+#co-so-luu-tru-danh-sach .card-diem-den .card .img-contain .user-selection a {
+    font-size: 15px;
+}
+
+.result-search .list-events .item{
+    margin-bottom: 0px;
+}
