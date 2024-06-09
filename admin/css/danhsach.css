@@ -1,0 +1,27 @@
+._btn {
+    margin-top: 2%;
+}
+.card {
+    height: 570px;
+    overflow: auto;
+}
+/* Địa điểm */
+.tendiadiem {
+    min-width: 200px;
+}
+.diachi {
+    min-width: 300px;
+}
+.hinhanh {
+    min-width: 150px;
+}
+.gioimocua, .gioidongcua, .gioithamquan {
+    min-width: 200px;
+}
+.motadiadiem {
+    min-width: 500px;
+}
+
+textarea {
+    width: 100%;
+}
